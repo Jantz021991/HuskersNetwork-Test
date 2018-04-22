@@ -6,6 +6,7 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 class TC004_Admin_CRUD_User(unittest.TestCase):
@@ -31,12 +32,13 @@ class TC004_Admin_CRUD_User(unittest.TestCase):
        elem.send_keys(Keys.RETURN)
        time.sleep(1)
 
-        #Hit the login button to login to Admin Screen
+       #Hit the login button to login to Admin Screen
        driver.find_element_by_xpath("/html/body/div/div[2]/div/form/div[3]/input").click()
        time.sleep(1)
 
+       #Click on the User Model in the Admin Screen
        driver.find_element_by_xpath("/html/body/div/div[2]/div[1]/div[1]/table/tbody/tr[2]/th/a").click()
-       time.sleep  (1)
+       time.sleep(1)
 
    def tearDown(self):
        self.driver.close()

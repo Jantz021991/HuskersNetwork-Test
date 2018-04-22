@@ -10,6 +10,7 @@ from TC001_Login import *
 from TC002_SocialMediaLogin_Twitter import *
 from TC003_UserSignUp import *
 from TC004_Admin_CRUD_User import *
+from TC005_Logout import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
