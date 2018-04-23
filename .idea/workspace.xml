@@ -11,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/HuskersNetwork_Test$Unittests_for_TC009_Hashtag_feed_TC009_Hashtag_Feed.coverage" NAME="Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed Coverage Results" MODIFIED="1524506629878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HuskersNetwork_Test$Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group.coverage" NAME="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group Coverage Results" MODIFIED="1524507598585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HuskersNetwork_Test$Unittests_for_TC009_Hashtag_feed_TC009_Hashtag_Feed_test_create_group.coverage" NAME="Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed.test_create_group Coverage Results" MODIFIED="1524505637093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -18,18 +19,28 @@
       <file leaf-file-name="TC007_Create_Group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TC007_Create_Group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="483">
+              <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TC009_Hashtag_feed.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TC009_Hashtag_feed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TC009_Hashtag_feed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TC0010_Group_Detail.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TC0010_Group_Detail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -51,6 +62,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TC009_Hashtag_feed.py" />
+        <option value="$PROJECT_DIR$/TC0010_Group_Detail.py" />
       </list>
     </option>
   </component>
@@ -111,7 +123,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed">
+  <component name="RunManager" selected="Python tests.Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group">
+    <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HuskersNetwork-Test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,14 +169,16 @@
       <option name="_new_target" value="&quot;TC009_Hashtag_feed.TC009_Hashtag_Feed.test_create_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed.test_create_group" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed.test_create_group" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed.test_create_group" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +199,21 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group - 2018.04.23 at 13h 11m 35s.xml">
+      <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group - 2018.04.23 at 13h 11m 50s.xml">
+      <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group - 2018.04.23 at 13h 12m 35s.xml">
+      <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group - 2018.04.23 at 13h 16m 14s.xml">
+      <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TC0010_Group_Detail_TC009_Hashtag_Feed_test_create_group - 2018.04.23 at 13h 20m 16s.xml">
+      <configuration name="Unittests for TC0010_Group_Detail.TC009_Hashtag_Feed.test_create_group" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_for_TC009_Hashtag_feed_TC009_Hashtag_Feed - 2018.04.23 at 13h 04m 08s.xml">
       <configuration name="Unittests for TC009_Hashtag_feed.TC009_Hashtag_Feed" configurationId="tests" />
     </history-entry>
@@ -217,18 +261,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TC007_Create_Group.py">
+    <entry file="file://$PROJECT_DIR$/TC009_Hashtag_feed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="424">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TC009_Hashtag_feed.py">
+    <entry file="file://$PROJECT_DIR$/TC007_Create_Group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TC0010_Group_Detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>
