@@ -14,6 +14,8 @@ from TC005_Logout import *
 from TC006_ChangePassword import *
 from TC007_Create_Group import *
 from TC008_Create_Venue import *
+from TC009_Hashtag_feed import *
+from TC0010_Group_Detail import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
