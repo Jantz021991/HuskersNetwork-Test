@@ -54,3 +54,9 @@ class TC006_ChangePassword(unittest.TestCase):
 
        driver.find_element_by_xpath("/html/body/div/div/form/div[4]/div/button").click()
        time.sleep(2)
+
+       def tearDown(self):
+           self.driver.close()
+
+   if __name__ == "__main__":
+       unittest.main()

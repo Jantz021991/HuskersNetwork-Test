@@ -54,8 +54,8 @@ class TC008_Create_Venue(unittest.TestCase):
 
        driver.find_element_by_xpath("/html/body/div/div/form/div[7]/div/button").click()
 
-       def tearDown(self):
-           self.driver.close()
+   def tearDown(self):
+       self.driver.close()
 
    if __name__ == "__main__":
        unittest.main()
