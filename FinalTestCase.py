@@ -15,8 +15,9 @@ from TC006_ChangePassword import *
 from TC007_Create_Group import *
 from TC008_Create_Venue import *
 from TC009_Hashtag_feed import *
-from TC0010_Group_Detail import *
+from TC010_Group_Detail import *
 from TC011_ManageAccount import *
+from TC012_UpdateVenue import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
