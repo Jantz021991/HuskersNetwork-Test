@@ -6,10 +6,9 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
 
 
-class TC001_Login(unittest.TestCase):
+class TC002_SocialMediaLogin_Twitter(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()
@@ -17,16 +16,13 @@ class TC001_Login(unittest.TestCase):
    def test_twitter_login_feature(self):
        driver = self.driver
        driver.maximize_window()
-       driver.get("https://huskersapp.herokuapp.com/home/")
+       driver.get("https://huskersapp.herokuapp.com")
        time.sleep(1)
 
+       #Click on the Sign in button
+       driver.find_element_by_xpath("/html/body/div/div/div[1]/div/a[1]/button").click()
+       time.sleep(1)
 
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/a/span/i").click()
-       time.sleep(2)
-
-       #Click login button
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/div/a").click()
-       time.sleep(2)
 
 
        #Hit the Login via Twitter button -

@@ -1,4 +1,4 @@
-#Author : Deepika
+#Author : Huskers Network Team
 #Final Test Demo
 
 import unittest
@@ -16,6 +16,7 @@ from TC007_Create_Group import *
 from TC008_Create_Venue import *
 from TC009_Hashtag_feed import *
 from TC0010_Group_Detail import *
+from TC011_ManageAccount import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):

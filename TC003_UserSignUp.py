@@ -16,21 +16,14 @@ class TC003_UserSignUp(unittest.TestCase):
    def test_login_feature(self):
        driver = self.driver
        driver.maximize_window()
-       driver.get("https://huskersapp.herokuapp.com/home/")
+       driver.get("https://huskersapp.herokuapp.com")
+       time.sleep(1)
+
+        #Click on the Sign up button
+       driver.find_element_by_xpath("/html/body/div/div/div[1]/div/a[2]/button").click()
        time.sleep(1)
 
 
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/a/span/i").click()
-       time.sleep(1)
-
-       #Click login button
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/div/a").click()
-       time.sleep(1)
-
-       #Redirects you to the login page, at the bottom go to the Sign UP button
-
-       driver.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div/div[2]/div/p/a/b").click()
-       time.sleep(1)
 
        #Now enter the credentials to Sign up
 
@@ -45,7 +38,7 @@ class TC003_UserSignUp(unittest.TestCase):
        elem.send_keys("husker@123")
        elem = driver.find_element_by_id("id_password2")
        elem.send_keys("husker@123")
-       time.sleep(2)
+       time.sleep(1)
 
         #Click on Sign Up button to register the user to Huskers Network
        driver.find_element_by_xpath("/html/body/div[2]/div[1]/div/div/div/form/div[6]/div/button").click()

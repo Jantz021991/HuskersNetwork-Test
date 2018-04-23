@@ -14,20 +14,17 @@ class TC008_Create_Venue(unittest.TestCase):
        self.driver = webdriver.Chrome()
 
    def test_create_group(self):
-       user = "groyce"
-       pwd = "instructor1a"
+       user = "huskyUser"
+       pwd = "husker@123"
 
        driver = self.driver
        driver.maximize_window()
-       driver.get("https://huskersapp.herokuapp.com/home/")
+       driver.get("https://huskersapp.herokuapp.com")
        time.sleep(1)
 
 
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/a/span/i").click()
-       time.sleep(1)
-
-       #Click login button
-       driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/ul/li[2]/div/a").click()
+       #Click Sign in button
+       driver.find_element_by_xpath("/html/body/div/div/header/div/div/div[2]/ul/li[3]/a").click()
        time.sleep(1)
 
        # Fetch the user ID and password by giving the below codes
